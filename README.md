@@ -4,12 +4,12 @@ Note: Python 3.11.4 was used for development
 
 Steps to run:
 
-1. Clone the repo
-2. Open terminal --> Switch to project root folder
+1. Open terminal and Clone the repo by running "git clone https://github.com/farizh/qubitTask.git"
+2. Switch to project root folder by running "cd qubitTask"
 3. Run "python -m venv qubitEnv"
 4. Activate qubitEnv by running "./qubitEnv/Scripts/activate"
 5. Install required dependencies by running "pip install -r requirements.txt"
-6. Run flask app by running "flask --app app run "
+6. Run flask app by running "flask --app app run"
 7. Validate flask server running on http://127.0.0.1:5000
 
 
@@ -42,7 +42,7 @@ Sample requests provided in "postman/qubitTask.postman_collection.json"
 
 Steps to play around with API using Postman:
 1. Open postman app
-2. File --> Import --> Upload qubitTask.postman_collection.json
+2. File --> Import --> Upload postman/qubitTask.postman_collection.json
 
 
 Things to improve in repo:
