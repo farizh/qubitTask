@@ -13,7 +13,7 @@ Steps to run:
 7. Validate flask server running on http://127.0.0.1:5000
 
 
-API Endpoint Available:
+API Endpoints Available:
 1. http://127.0.0.1:5000/submit
     - POST:
         Inputs expected:
@@ -44,11 +44,15 @@ Steps to play around with API using Postman:
 1. Open postman app
 2. File --> Import --> Upload postman/qubitTask.postman_collection.json
 
+Steps to run generator app against the flask app:
+1. Open new terminal window and run "./bin/generator --submit-url http://127.0.0.1:5000/submit"
+2. Open new terminal window and run "./bin/generator --search-url  http://127.0.0.1:5000/search"
+
 
 Things to improve in repo:
 1. Add proper logger
 2. Add input validation, sanitization. (marshmallow)
-3. Add swagger to play around with api endpoint
+3. Add swagger to play around with api endpoints
 
 
 
