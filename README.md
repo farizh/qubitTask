@@ -22,17 +22,17 @@ API Endpoint Available:
             text: string
             url: string
 2. http://127.0.0.1:5000/search
-    - GET
+    - GET:
         Input Expected:
             title - string (fuzzy)
             author - string (exact)
             size - string
 3. http://127.0.0.1:5000/item/<submission_id>'
-    -GET
+    -GET:
         Input expected:
             submission_id
 4. http://127.0.0.1:5000/rss
-    - GET
+    - GET:
         Input Expected:
             title - string (fuzzy)
             author - string (exact)
