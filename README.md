@@ -7,10 +7,10 @@ Steps to run:
 1. Open terminal and Clone the repo by running "git clone https://github.com/farizh/qubitTask.git"
 2. Switch to project root folder by running "cd qubitTask"
 3. Run "python -m venv qubitEnv"
-4. Activate qubitEnv by running "./qubitEnv/Scripts/activate"
-5. Install required dependencies by running "pip install -r requirements.txt"
-6. Run flask app by running "flask --app app run"
-7. Validate flask server running on http://127.0.0.1:5000
+4. Activate qubitEnv by running "./qubitEnv/Scripts/activate"   (or "./qubitEnv/bin/activate")
+6. Install required dependencies by running "pip install -r requirements.txt"
+7. Run flask app by running "flask --app app run"
+8. Validate flask server running on http://127.0.0.1:5000
 
 
 API Endpoints Available:
