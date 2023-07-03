@@ -24,7 +24,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"title\": \"xiyar\",\r\n\t\"author\": \"dovshan\",\r\n\t\"text\": \"bunny\",\r\n\t\"url\": \"http://www.gangani.az\"\r\n}\r\n"
+					"raw": "{\r\n\t\"title\": \"randomTitle\",\r\n\t\"author\": \"randomAuthor\",\r\n\t\"text\": \"textContentThatSaysNothing\",\r\n\t\"url\": \"http://www.example.com\"\r\n}\r\n"
 				},
 				"url": {
 					"raw": "http://127.0.0.1:5000/submit",
