@@ -27,7 +27,7 @@ API Endpoint Available:
             title - string (fuzzy)
             author - string (exact)
             size - string
-3. http://127.0.0.1:5000/item/<submission_id>'
+3. http://127.0.0.1:5000/item/<submission_id>
     -GET:
         Input expected:
             submission_id
