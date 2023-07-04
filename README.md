@@ -52,7 +52,8 @@ Steps to run generator app against the flask app:
 Things to improve in repo:
 1. Add proper logger
 2. Add input validation, sanitization. (marshmallow)
-3. Add swagger to play around with api endpoints
+3. Add unit tests
+4. Add swagger to play around with api endpoints
 
 
 
